@@ -10,7 +10,11 @@
 
 <body>
     <div class="container">
-        <img id="fundo" src="./img/tsfundo01-1024.jpg" alt="Tsarna Gora Background">
+        <picture>
+            <source media="(max-width: 750px)" srcset="img/tsfundo01-256-baixa.jpg" type="image/jpg">
+            <source media="(max-width: 1050px)" srcset="img/tsfundo01-512-baixa.jpg" type="image/jpg">
+            <img id="fundo" src="./img/tsfundo01-1024.jpg" alt="Tsarna Gora Background">
+        </picture>
         <div class="content">
             <h1>Tsarna Gora</h1>
             <h2>As Montanhas Negras e outras histórias</h2>
